@@ -1,0 +1,42 @@
+nav{
+    background-color: rgb(30, 224, 224);
+    color: rgb(14, 6, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    
+}
+.nav1{
+    display: flex;
+    list-style: none;
+}
+.link{
+    margin-left: 10px;
+    list-style: none;
+}
+ 
+ .logohead{
+    margin: 0;
+}
+
+ .rent {
+ background-color: #4f43f7;
+ border: none;
+ color: white;
+ padding: 25px 80px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+flex-wrap: wrap;
+  
+ }
+ @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+
+            
