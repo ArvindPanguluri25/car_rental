@@ -1,5 +1,6 @@
 nav{
-    background-color: rgb(30, 224, 224);
+    /*background-color: rgba(32, 34, 34, 0.664);*/
+    background-image: linear-gradient(to right, #14abd8 , #f7f7f4f0);
     color: rgb(14, 6, 1);
     display: flex;
     justify-content: space-between;
@@ -20,7 +21,7 @@ nav{
 }
 
  .rent {
- background-color: #4f43f7;
+ background-color: #19add8b3;
  border: none;
  color: white;
  padding: 25px 80px;
@@ -38,5 +39,69 @@ flex-wrap: wrap;
       flex: 100%;
     }
   }
+  .container-backimg
+  {
+      background-image: url("chuttersnap-gts_Eh4g1lk-unsplash.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      justify-content: center;
+      display: flex;
+  }
+  .formlogin 
+  {
+      text-align: center;
+      color: beige;
+
+      
+  }
+.background-img{
+background-image: url("samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg");
+background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 13%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
 
             
