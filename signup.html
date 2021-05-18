@@ -12,63 +12,62 @@
 <body class="container-backimg">
     <br></br>
 
-    <fieldset style="background-color: hsl(0deg 17% 26% / 58%);
-       width: 800px;
-       height: 1000px;">
+    <fieldset style="background-color: hsl(0deg 0% 0% / 60%);
+       width: 40%; margin: auto;">
         <form>
             <div class="formlogin">
-
                 <h1>Sign Up</h1>
-                <p1>Your Basic Info</p1>
-                <br>
-                <br>
-
-                Name : <br>
+                <br/>
+                <h4 style="margin: 0;">Your Basic Info</h4>
+                <br/>
+                <div class="input-row">
+                <p for="name"> Name :</p>
                 <input type="text" name="name" required>
-                <br>
-                <br>
-                <br>
-                Email: <br>
-
+                </div>
+                
+                <div class="input-row">
+                <p for="email"> Email :</p>
                 <input type="email" name="email" required>
-                <br>
-                <br>
-                <br>
-                Password:<br> <input type="password" name="password" maxlength="8" required>
-                <br>
-                <br>
-                <br>
-
-                Age:<br>
+                </div>
+                
+                <div class="input-row">
+                <p for="password"> Password :</p>
+                <input type="password" name="password" maxlength="8" required>
+                </div>
+                
+                <div class="input-row">
+                <p for="gender"> Gender :</p>
                 <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
+                <label for="male">Male</label>
                 <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
-
-
-                <br>
-                <br>
-
-                Biography:
-                <textarea rows="5" cols="30"></textarea>
-                <br>
-                <br>
-                <br>
-                Profession
-                <select name="Job Role" style="width: 234px;">
+                <label for="female">Female</label>
+                </div>
+                
+                <div class="input-row">
+                <p for="bio"> Biography :</p>
+                <textarea rows="5" cols="30" name="bio"></textarea>
+                </div>
+                
+                <div class="input-row">
+                <p for="profession"> Profession :</p>
+                <select name="Job Role" style="width: 234px;" name="profession">
                     <option value="choose">Choose any option</option>
                     <option value="student">Student</option>
                     <option value="employee">Employee</option>
                     <option value="dependent">Dependent</option>
                 </select>
-                <p> Interests:</p>
-                <input type="checkbox" style="width: 2px; height: 2px;">Development <br>
-                <input type="checkbox" style="width: 2px; height: 2px;">Design <br>
-                <input type="checkbox" style="width: 2px; height: 2px;">Business<br></br>
+                </div>
+                
+                <div class="input-row">
+                <p for="Interests"> Interested Car Brands :</p>
+                <input type="checkbox" value="bmw">BMW
+                <input type="checkbox" value="honda" >Honda 
+                <input type="checkbox" value="audi">Audi<br></br>
+                </div>
 
                 <button type="submit" name="button" style="width: 102px;
         height: 35px;
-        background-color: #29c5297a;;"> Sign-up</button>
+        background-color: #cddc39; border-radius: 5px;"> Sign-up</button>
 
             </div>
         </form>

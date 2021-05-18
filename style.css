@@ -1,3 +1,6 @@
+body{
+  font-family: sans-serif;
+}
 nav {
   background-image: linear-gradient(to right, #14abd8, #f7f7f4f0);
   color: rgb(14, 6, 1);
@@ -127,6 +130,17 @@ h1 {
   text-align: center;
   color: beige;
 }
+.formlogin .input-row{
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+}
+.formlogin .input-row p{
+  margin: 0;
+  width: 200px;
+  text-align: left;
+  padding-left: 20px;
+}
 
 /* Style the tab */
 
@@ -243,3 +257,4 @@ h1 {
   right: 45px;
   font-size: 60px;
 }
+
