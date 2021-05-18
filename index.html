@@ -55,13 +55,14 @@
         </div> -->
 
         <div class="tab">
-            <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'Rent')">Rent</button>
+            <button class="tablinks" onclick="openTab(event, 'Rent')">Rent</button>
             <button class="tablinks" onclick="openTab(event, 'Learn')">Learn</button>
             <button class="tablinks" onclick="openTab(event, 'Location')">Location</button>
             <button class="tablinks" onclick="openTab(event, 'Business')">Business</button>
             <button class="tablinks" onclick="openTab(event, 'Game')">Game</button>
         </div>
 
+        <div id="close-icon" onclick="closeIcon()">X</div>
         <div id="Rent" class="tabcontent tab_style">
             <h3>Rent</h3>
             <p>Rent Data.</p>
