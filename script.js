@@ -18,4 +18,4 @@ function openTab(evt, tabName) {
 }
 
 
-openTab(event, 'Rent');
+document.getElementById("defaultOpen").click();
