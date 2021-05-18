@@ -1,5 +1,4 @@
 nav{
-    /*background-color: rgba(32, 34, 34, 0.664);*/
     background-image: linear-gradient(to right, #14abd8 , #f7f7f4f0);
     color: rgb(14, 6, 1);
     display: flex;
@@ -54,7 +53,7 @@ flex-wrap: wrap;
   }
   .container-backimg
   {
-      background-image: url("chuttersnap-gts_Eh4g1lk-unsplash.jpg");
+      background-image: url("./images/chuttersnap-gts_Eh4g1lk-unsplash.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       justify-content: center;
@@ -106,7 +105,7 @@ flex-wrap: wrap;
   color: white;
 }
 .background-img{
-background-image: url("samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg");
+background-image: url("./images/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg");
 background-size: cover;
       background-repeat: no-repeat;
 }
