@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="fin.css" />
-    
+    <script src="script.js"></script>
 </head>
+
 <body class="background-img">
     <header>
         <nav>
             <ul>
-                <img src="car logo.PNG" alt="logo" style="height: 50px" ; > <h1 class="logohead" >CAR RENTALS</h1></li>
+                <img src="car logo.PNG" alt="logo" style="height: 50px" ;>
+                <h1 class="logohead">CAR RENTALS</h1>
+                </li>
             </ul>
             <ul class="nav1">
                 <li class="link"><a href="">Products</a></li>
                 <li class="link"><a href="">Blog</a></li>
                 <li class="link"><a href="">Order</a></li>
                 <li class="link"><a href="">Contact</a></li>
-                <li class="link"><a href="https://www.canada.ca/en/services/immigration-citizenship/search.html?cdn=canada&st=s&num=10&langs=en&st1rt=1&s5bm3ts21rch=x&q=covid&_charset_=UTF-8&wb-srch-sub=">covid 19 update</a></li>
+                <li class="link"><a
+                        href="https://www.canada.ca/en/services/immigration-citizenship/search.html?cdn=canada&st=s&num=10&langs=en&st1rt=1&s5bm3ts21rch=x&q=covid&_charset_=UTF-8&wb-srch-sub=">covid
+                        19 update</a></li>
                 <li class="link"><a href="form.html">signin</a></li>
             </ul>
         </nav>
-        <div>
-            <button class="rent" onclick="openNav()">Rent</button>
+
+        <!-- <div>
+            <button class="rent" onclick="openTab()">Rent</button>
             <div id="opennav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-
-                  <a href="#">Reservation</a><br>
-                  <h1>hello</h1>
-                
-                  <img src="evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="carback" style="height: 445px;">
-                  
-                  
+                    <a href="#">Reservation</a><br>
+                    <h1>hello</h1>
+                    <img src="evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="carback" style="height: 445px;">
                 </div>
-              
-              </div>
+            </div>
             <button class="rent">Share </button>
             <button class="rent">learn</button>
             <button class="rent">location</button>
             <button class="rent">Business</button>
-        
-        </div>
-        
+        </div> -->
 
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Rent')">Rent</button>
+            <button class="tablinks" onclick="openTab(event, 'Learn')">Learn</button>
+            <button class="tablinks" onclick="openTab(event, 'Location')">Location</button>
+            <button class="tablinks" onclick="openTab(event, 'Business')">Business</button>
+        </div>
+
+        <div id="Rent" class="tabcontent tab_style">
+            <h3>Rent</h3>
+            <p>Rent Data.</p>
+        </div>
+
+        <div id="Learn" class="tabcontent tab_style">
+            <h3>Learn</h3>
+            <p>Learn Data.</p>
+        </div>
+
+        <div id="Location" class="tabcontent tab_style">
+            <h3>Location</h3>
+            <p>Location Data.</p>
+        </div>
+
+        <div id="Business" class="tabcontent tab_style">
+            <h3>Business</h3>
+            <p>Business Data.</p>
+        </div>
 
     </header>
-    <script src="java.js"></script>
+
 </body>
+
 </html>
