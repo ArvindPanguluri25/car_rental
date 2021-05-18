@@ -198,6 +198,29 @@ h1 {
   margin: 0;
 }
 
+/* Learn container */
+.learn-container{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.learn-left-box{
+  width: 50%;
+  padding-right: 40px;
+}
+.learn-right-box{
+  width: 50%;
+}
+ 
+.learn-right-box img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
 #close-icon {
   display: none;
   position: absolute;
