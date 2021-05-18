@@ -1,26 +1,28 @@
-nav{
-    background-image: linear-gradient(to right, #14abd8 , #f7f7f4f0);
-    color: rgb(14, 6, 1);
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 20px;
-    
+nav {
+  background-image: linear-gradient(to right, #14abd8, #f7f7f4f0);
+  color: rgb(14, 6, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
 }
-.row{
+
+.row {
   margin: 0;
 }
-.nav1{
-    display: flex;
-    list-style: none;
+
+.nav1 {
+  display: flex;
+  list-style: none;
 }
+
 h1 {
   color: orangered;
   font-size: 45px;
 }
 
 /* 3*3 Grid */
-#b1, #b2, #b3, #b4, #b5, 
-#b6, #b7, #b8, #b9 {
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
   width: 80px;
   height: 52px;
   margin: auto;
@@ -31,6 +33,7 @@ h1 {
 }
 
 /* Reset Button */
+
 #but {
   box-sizing: border-box;
   width: 95px;
@@ -38,9 +41,7 @@ h1 {
   border: 1px solid dodgerblue;
   margin: auto;
   border-radius: 4px;
-  font-family: Verdana, 
-      Geneva, Tahoma, sans-serif;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: dodgerblue;
   color: white;
   font-size: 20px;
@@ -48,85 +49,86 @@ h1 {
 }
 
 /* Player turn space */
-#print {
-  font-family: Verdana, 
-      Geneva, Tahoma, sans-serif;
 
+#print {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: dodgerblue;
   font-size: 20px;
 }
 
 /* Main Contianer */
+
 #main {
   text-align: center;
 }
 
 /* Game Instruction Text */
+
 #ins {
-  font-family: Verdana, 
-      Geneva, Tahoma, sans-serif;
-        
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: dodgerblue;
   font-size: 17px;
 }
-.m_0{
+
+.m_0 {
   margin: 0%;
 }
-.h_72{
+
+.h_72 {
   height: 72px;
 }
-.link{
-    margin-left: 10px;
-    list-style: none;
+
+.link {
+  margin-left: 10px;
+  list-style: none;
 }
-.top-20{
+
+.top-20 {
   top: 20px;
-  
 }
 
 .font_family {
   font-family: ui-sans-serif;
 }
- 
- .logohead{
-    margin: 0;
+
+.logohead {
+  margin: 0;
 }
 
- .tab_style {
- background-color: #070707e3;
- border: none;
- color: white;
- padding: 25px 80px;
- text-decoration: none;
- display: inline-block;
- font-size: 16px;
- margin: 4px 2px;
- cursor: pointer;
-flex-wrap: wrap;
-  
- }
- @media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
-    }
-  }
-  .container-backimg
-  {
-      background-image: url("./images/chuttersnap-gts_Eh4g1lk-unsplash.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      justify-content: center;
-      display: flex;
-  }
-  .formlogin 
-  {
-      text-align: center;
-      color: beige;
+.tab_style {
+  background-color: #070707e3;
+  border: none;
+  color: white;
+  padding: 25px 80px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
 
-      
-      
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
   }
-  /* Style the tab */
+}
+
+.container-backimg {
+  background-image: url("./images/chuttersnap-gts_Eh4g1lk-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+}
+
+.formlogin {
+  text-align: center;
+  color: beige;
+}
+
+/* Style the tab */
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -134,6 +136,7 @@ flex-wrap: wrap;
 }
 
 /* Style the buttons inside the tab */
+
 .tab button {
   background-color: inherit;
   float: left;
@@ -146,18 +149,20 @@ flex-wrap: wrap;
 }
 
 /* Change background color of buttons on hover */
+
 .tab button:hover {
   background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
+
 .tab button.active {
   background-color: #ccc;
 }
 
 /* Style the tab content */
+
 .tabcontent {
-  
   padding: 6px 12px;
   border-top: none;
   color: white;
@@ -165,7 +170,8 @@ flex-wrap: wrap;
   transition: all ease 0S;
   overflow: hidden;
 }
-.tabcontent.view{
+
+.tabcontent.view {
   transition: all ease 0.5S;
   position: absolute;
   width: 100%;
@@ -174,7 +180,8 @@ flex-wrap: wrap;
   top: 0;
   margin: 0;
 }
-#close-icon{
+
+#close-icon {
   display: none;
   position: absolute;
   font-size: 25px;
@@ -185,55 +192,51 @@ flex-wrap: wrap;
   cursor: pointer;
 }
 
-
-.background-img{
-background-image: url("./images/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg");
-background-size: cover;
-      background-repeat: no-repeat;
+.background-img {
+  background-image: url("./images/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  
-  .overlay-content {
-    position: relative;
-    top: 13%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
 
+.overlay-content {
+  position: relative;
+  top: 13%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
 
-            
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
