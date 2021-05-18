@@ -164,16 +164,18 @@ h1 {
 /* Style the tab content */
 
 .tabcontent {
-  padding: 6px 12px;
+  padding: 0;
   border-top: none;
   color: white;
   height: 0;
+  width: 0;
   transition: all ease 0S;
   overflow: hidden;
 }
 
 .tabcontent.view {
-  transition: all ease 0.5S;
+  padding: 6px 12px;
+  transition: height ease 0.5S;
   position: absolute;
   width: 100%;
   height: 100%;
