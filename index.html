@@ -11,145 +11,207 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+
 </head>
 
-<body class="background-img">
+<body class="background-img ">
+    
+    <div class="row">
+        <nav class="h_72">
+            <ul class="col-sm-4 ">
 
-    <header>
-        <!-- <div class="container m_0"> -->
-        <div class="row">
-            <nav class="h_72">
-                <ul class="col-sm-4 ">
-
-                    <img src="./images/car logo.PNG" width="20%" height="100%" alt="logo" class="col-sm-4 ">
-                    <h3 class="logohead col-sm-8  top-20 font_family">CAR RENTALS</h3>
-                    </li>
-                </ul>
-                <ul class="nav1 col-sm-8 top-20">
-                    <li class="link"><a href="">Products</a></li>
-                    <li class="link"><a href="">Blog</a></li>
-                    <li class="link"><a href="">Order</a></li>
-                    <li class="link"><a href="">Contact</a></li>
-                    <li class="link"><a
-                            href="https://www.canada.ca/en/services/immigration-citizenship/search.html?cdn=canada&st=s&num=10&langs=en&st1rt=1&s5bm3ts21rch=x&q=covid&_charset_=UTF-8&wb-srch-sub=">Covid-Update</a>
-                    </li>
-                    <li class="link"><a href="signup.html">Signin</a></li>
-                </ul>
-            </nav>
-            <!-- </div> -->
-        </div>
+                <img src="./images/car logo.PNG" width="20%" height="100%" alt="logo" class="col-sm-4 ">
+                <h3 class="logohead col-sm-8  top-20 font_family" style="color: white;">CAR RENTALS</h3>
+                </li>
+            </ul>
+            <ul class="nav1 col-sm-8 top-20">
+                <li class="link"><a href="blog.html">Blog</a></li>
+                <li class="link"><a href="contact.html">Contact-Us</a></li>
+                <li class="link"><a
+                        href="https://www.canada.ca/en/services/immigration-citizenship/search.html?cdn=canada&st=s&num=10&langs=en&st1rt=1&s5bm3ts21rch=x&q=covid&_charset_=UTF-8&wb-srch-sub=">Covid-Update</a>
+                </li>
+                <li class="link"><a href="signup.html">Signin</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
-        <div class="tab">
-            <button class="tablinks" onclick="openTab(event, 'Rent')">Rent</button>
-            <button class="tablinks" onclick="openTab(event, 'Learn')">Learn</button>
-            <button class="tablinks" onclick="openTab(event, 'Location')">Location</button>
-            <button class="tablinks" onclick="openTab(event, 'Business')">Business</button>
-            <button class="tablinks" onclick="openTab(event, 'Game')">Game</button>
-        </div>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Rent')">Rent</button>
+        <button class="tablinks" onclick="openTab(event, 'Learn')">Learn</button>
+        <button class="tablinks" onclick="openTab(event, 'Location')">Location</button>
+        <button class="tablinks" onclick="openTab(event, 'Business')">Business</button>
+        <button class="tablinks" onclick="openTab(event, 'Game')">Game</button>
+    </div>
 
-        <div id="close-icon" onclick="closeIcon()">X</div>
-        <div id="Rent" class="tabcontent tab_style">
-            <h3>Rent</h3>
-            <p>Rent Data.</p>
-        </div>
+    <div class="containerImg"><h2><b>Rental Cars at Low and Affordable Prices.</b></h2></div>
+    <footer>
+        <p style="color: black;">Directors : Rapolu Sravan Kumar, Arvind Reddy</p>
+        <p><a style="color: black;" href="mailto:hege@example.com"> Mails : sravan@example.com,arvind@gmail.com</a></p>
+      </footer>
+    <div id="close-icon" onclick="closeIcon()">X</div>
+    <div id="Rent" class="tabcontent tab_style" >
 
-        <div id="Learn" class="tabcontent tab_style">
-            <div class="learn-container">
-                <div class="learn-left-box">
-                    <h3>Learn</h3>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <ul>
-                        <li>Audi Cars for rent</li>
-                        <li>Tesla Cars for rent</li>
-                        <li>Honda Cars for rent</li>
-                        <li>Hundai Cars for rent</li>
-                        <li>Ferrari Cars for rent</li>
-                    </ul>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="tabClass alignCenter">
+                <div class="row ">
+                    <h1 class="center">Reserve a Car</h1><br><br><br><br>
+                    <p>Pick Up or Rerturn Location(Postal Code,City or Airport)*</p>
+                    <div class="autocomplete" style="width:300px;">
+                        <input id="myLocation" class="myLocation" type="text" name="myLocation" placeholder="Location">
+                    </div>
                 </div>
-                <div class="learn-right-box">
-                    <img src="./images/dan-gold-N7RiDzfF2iw-unsplash.jpg" alt="back-learn-img" />
+                <br>
+                <div class="row">
+                    <div class="col-sm-2 float-left pad_0">
+                        <p>Pick Up Date :</p>
+                        <div class="autocomplete" style="width:300px;">
+                            <input type="date" id="pickUpDate" name="pickUpDate">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-1 float-left top_52 left_icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                        </svg>
+                    </div>
+                    <div class="col-sm-2 float-left">
+                        <p>Return Date :</p>
+                        <div class="autocomplete" style="width:300px;">
+                            <input type="date" id="returnDate" name="returnDate">
+                        </div>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-1 float-left pad_0">
+                        <p>Age : </p>
+                    </div>
+                    <div class="col-sm-2 float-left">
+                        <select name="cars" id="cars" class="color">
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20+">20+</option>
+                        </select>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+           
+            <div class="tabClass alignCenter">
+                <div class="row">
+                    <h1 class="center">Choose a Vehicle</h1><br><br><br><br>
+                    <div id="vehicle">
+                        </div>
                 </div>
             </div>
+            <div class="tabClass alignCenter">
+                <div class="row">
+                    <h1 class="center">Confirmation</h1><br><br><br><br>
+                   
+                    <h3>Done, Your Car will be ready to pick up at the nearest store in your location , will send you the details via mail. Thanks!</h3>
+
+                </div>
+            </div>
+            <div class="row alignCenter" id="nextButttons">
+                <button type="button" id="prevBtn" class="buttonSlide" onclick="nextPrev(-1);">Previous</button>
+                <input type="button" id="nextBtn" class="buttonSlide" onclick="nextPrev(1);showCatelogs();" value="Next">
+            </div>
+            <script src="autoComplete.js"></script>
+    </div>
+
+    <div id="Learn" class="tabcontent tab_style">
+        <div class="learn-container">
+            <div class="learn-left-box">
+                <h3>Learn</h3>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <ul>
+                    <li>Audi Cars for rent</li>
+                    <li>Tesla Cars for rent</li>
+                    <li>Honda Cars for rent</li>
+                    <li>Hundai Cars for rent</li>
+                    <li>Ferrari Cars for rent</li>
+                </ul>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="learn-right-box">
+                <img src="./images/dan-gold-N7RiDzfF2iw-unsplash.jpg" alt="back-learn-img" />
+            </div>
         </div>
+    </div>
 
 
-        <div id="Business" class="tabcontent tab_style">
-            <h3>Business</h3>
-            <p>Business Data.</p>
+    <div id="Business" class="tabcontent tab_style">
+        <h3>Business</h3>
+        <p>Business Data.</p>
+    </div>
+
+    <div id="Game" class="tabcontent tab_style">
+        <h3>Game</h3>
+        <div id="main">
+            <h1>TIC TAC TOE</h1>
+            <p id="ins">Tap on
+                any box to start the Game<br>First Player => X
+                <br>Second Player => 0</b>
+            </p>
+            <br><br>
+            <input type="text" id="b1" onclick="checkB1(); init();" readonly>
+
+            <input type="text" id="b2" onclick="checkB2(); init();" readonly>
+
+            <input type="text" id="b3" onclick="checkB3(); init();" readonly>
+            <br><br>
+
+            <input type="text" id="b4" onclick="checkB4(); init();" readonly>
+
+            <input type="text" id="b5" onclick="checkB5(); init();" readonly>
+
+            <input type="text" id="b6" onclick="checkB6(); init();" readonly>
+            <br><br>
+
+            <input type="text" id="b7" onclick="checkB7(); init();" readonly>
+
+            <input type="text" id="b8" onclick="checkB8();init();" readonly>
+
+            <input type="text" id="b9" onclick="checkB9();init();" readonly>
+
+            <br><br><br>
+            <button id="but" onclick="reset()">
+                RESET
+            </button>
+            <br><br>
+            <p id="print"></p>
+
         </div>
+    </div>
 
-        <div id="Game" class="tabcontent tab_style">
-            <h3>Game</h3>
-            <div id="main">
-                <h1>TIC TAC TOE</h1>
-
-                <!-- Game Instructions -->
-                <p id="ins">Game starts by just Tap on
-                    box<br><br>First Player starts as
-                    <b>Player X</b><br>And<br>Second
-                    Player as <b>Player 0</b>
+    <div id="Location" class="tabcontent tab_style">
+        <div class="learn-container">
+            <div class="learn-left-box">
+                <h3>Location</h3>
+                <p>
+                    Address : 577 Boul Henri-Bourassa East, Montreal, Quebec, H2C 1E2
                 </p>
-
-                <br><br>
-                <!-- 3*3 grid of Boxes -->
-                <input type="text" id="b1" onclick="myfunc_3(); myfunc();" readonly>
-
-                <input type="text" id="b2" onclick="myfunc_4(); myfunc();" readonly>
-
-                <input type="text" id="b3" onclick="myfunc_5(); myfunc();" readonly>
-                <br><br>
-
-                <input type="text" id="b4" onclick="myfunc_6(); myfunc();" readonly>
-
-                <input type="text" id="b5" onclick="myfunc_7(); myfunc();" readonly>
-
-                <input type="text" id="b6" onclick="myfunc_8(); myfunc();" readonly>
-                <br><br>
-
-                <input type="text" id="b7" onclick="myfunc_9(); myfunc();" readonly>
-
-                <input type="text" id="b8" onclick="myfunc_10();myfunc();" readonly>
-
-                <input type="text" id="b9" onclick="myfunc_11();myfunc();" readonly>
-
-                <!-- Grid end here  -->
-                <br><br><br>
-                <!-- Button to reset game -->
-                <button id="but" onclick="myfunc_2()">
-                    RESET
-                </button>
-
-                <br><br>
-                <!-- Space to show player turn -->
-                <p id="print"></p>
-
+            </div>
+            <div class="learn-right-box">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.734281165208!2d-73.67046298417826!3d45.55567063535576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6b57b17f43%3A0xb161cf6010b851a8!2sC%C3%A9gep%20de%20la%20Gasp%C3%A9sie%20et%20des%20%C3%8Eles!5e0!3m2!1sen!2sin!4v1570181560668!5m2!1sen!2sin"
+                    frameborder="0" width="100%" height="500px" iframe>
             </div>
         </div>
+    </div>
 
-        <div id="Location" class="tabcontent tab_style">
-            <div class="learn-container">
-                <div class="learn-left-box">
-                    <h3>Location</h3>
-                    <p>
-                        Address : 577 Boul Henri-Bourassa East, Montreal, Quebec, H2C 1E2
-                    </p>
-                </div>
-                <div class="learn-right-box">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.734281165208!2d-73.67046298417826!3d45.55567063535576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6b57b17f43%3A0xb161cf6010b851a8!2sC%C3%A9gep%20de%20la%20Gasp%C3%A9sie%20et%20des%20%C3%8Eles!5e0!3m2!1sen!2sin!4v1570181560668!5m2!1sen!2sin" frameborder="0" width="100%" height="500px" iframe>
-                </div>
-            </div>
-        </div>
-    </header>
+    <div>
+    
+    </div>
 </body>
 
 </html>
